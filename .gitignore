@@ -1,0 +1,24 @@
+# data (size & license)
+raw-data/
+vaep/output/
+outputs/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# model/data binaries
+*.pt
+*.parquet
+*.csv.bak
+
+# editor/OS
+.DS_Store
+.vscode/
+*.swp
+
+# tokens/secrets
+token.md
+*.token
+.env

@@ -1,0 +1,20 @@
+# Tested environment for reproducing the paper (VAEP pipeline + GNN pipeline).
+# Install: pip install -r requirements.txt
+#  * For torch/torch-geometric, prefer the wheel index matching your CUDA
+#    version (tested: torch 2.2.1 + cu121, torch-geometric 2.7.0, RTX A6000).
+torch==2.2.1
+torch-geometric==2.7.0
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn==1.7.2
+xgboost==3.2.0
+matplotlib==3.10.8
+mplsoccer==1.6.1           # case-study pitch plots (paper_results.ipynb)
+socceraction==1.5.3        # xT (Table 1)
+pyarrow>=14.0
+pandera[pandas]==0.17.2
+multimethod==1.9
+tqdm
+unidecode
+jupyter                     # for running paper_results.ipynb
